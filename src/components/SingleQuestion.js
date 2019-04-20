@@ -47,7 +47,7 @@ export class SingleQuestion extends Component {
             <p>{difficulty}</p>
           </div>
           <p className="question-itself">
-            <b>{decodedQuestion.substring(0, 100)}</b>
+            <b>{decodedQuestion}</b>
           </p>
         </div>
         <Modal
